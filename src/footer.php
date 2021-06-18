@@ -16,20 +16,19 @@
     <!-- TODO: Add SDKs for Firebase products that you want to use
         https://firebase.google.com/docs/web/setup#available-libraries -->
 
-    <script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-        apiKey: "AIzaSyB4MaW-E1FUqvkgw81SN91OsHE25cxNF0A",
-        authDomain: "wisata-c7bfd.firebaseapp.com",
-        databaseURL: "https://wisata-c7bfd-default-rtdb.asia-southeast1.firebasedatabase.app",
-        projectId: "wisata-c7bfd",
-        storageBucket: "wisata-c7bfd.appspot.com",
-        messagingSenderId: "926227674909",
-        appId: "1:926227674909:web:5f0857ed6e05874a3e93f4"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    </script>
+        <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAAkf_Qkhje4KNB6AyILsQ-Q1_dwzzqE7E",
+            authDomain: "gowisata-4e15f.firebaseapp.com",
+            projectId: "gowisata-4e15f",
+            storageBucket: "gowisata-4e15f.appspot.com",
+            messagingSenderId: "181270797034",
+            appId: "1:181270797034:web:648ecb0b016e464bbd1593"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        </script>
     <script type="text/javascript" src="localhots/../js/upload_image.js"></script>
   </body>
 </html>

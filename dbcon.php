@@ -5,8 +5,8 @@ require __DIR__.'/vendor/autoload.php';
 use Kreait\Firebase\Factory;
 
 $factory = (new Factory)
-            ->withServiceAccount('wisata-c7bfd-firebase-adminsdk-274z8-2cd336583d.json')
-            ->withDatabaseUri('https://wisata-c7bfd-default-rtdb.asia-southeast1.firebasedatabase.app/');
+            ->withServiceAccount('gowisata-4e15f-firebase-adminsdk-5wbxm-5e96903377.json')
+            ->withDatabaseUri('https://gowisata-4e15f-default-rtdb.asia-southeast1.firebasedatabase.app/');
 
 $database = $factory->createDatabase();
 $auth = $factory->createAuth();
