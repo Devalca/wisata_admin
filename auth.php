@@ -10,7 +10,6 @@ if(isset($_SESSION['verified_user_id'])) {
     try {
         $verifiedIdToken = $auth->verifyIdToken($idTokenString);
     } catch (InvalidToken $e) {
-        // echo 'The token is invalid: '.$e->getMessage();
         $_SESSION['exp_status'] = "Token Expired/Invalid!";
         header('location:logout.php');
         exit();

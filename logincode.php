@@ -8,9 +8,15 @@ if(isset($_POST['login_btn'])) {
     $clearTextPassword = $_POST['password'];
 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        if ($email != "admin@admin.com") {
             $_SESSION['status'] = "Silahkan Periksa Kembali Email Anda!";
             header('Location:index.php');
             exit();
+        } else {
+            $_SESSION['status'] = "Silahkan Periksa Kembali Email Anda!";
+            header('Location:index.php');
+            exit();
+        }
     } else {
         try {
             $user = $auth->getUserByEmail("$email");
